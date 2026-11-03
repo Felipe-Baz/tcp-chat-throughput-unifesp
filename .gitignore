@@ -1,0 +1,16 @@
+# binários
+bin/
+*.o
+
+# LaTeX (o PDF final fica versionado)
+*.aux
+*.log
+*.out
+*.toc
+
+# logs temporários e dados brutos grandes do perf
+results/srv.log
+results/perf/*.data
+results/perf/*.cpuA
+results/perf/*.cpuB
+results/perf/*.rerr

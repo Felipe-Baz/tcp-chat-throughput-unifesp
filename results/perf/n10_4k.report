@@ -1,0 +1,69 @@
+# To display the perf.data header info, please use --header/--header-only options.
+#
+#
+# Total Lost Samples: 0
+#
+# Samples: 34K of event 'cycles:P'
+# Event count (approx.): 129837362971
+#
+# Overhead  Command      Shared Object      Symbol                                        
+# ........  ...........  .................  ..............................................
+#
+    27.50%  chat_server  [kernel.kallsyms]  [k] copyout
+     3.98%  chat_client  [kernel.kallsyms]  [k] clear_page_erms
+     2.98%  chat_client  [kernel.kallsyms]  [k] copyin
+     2.54%  chat_client  [kernel.kallsyms]  [k] tcp_sendmsg_locked
+     1.43%  chat_client  [kernel.kallsyms]  [k] srso_alias_safe_ret
+     1.33%  chat_client  [kernel.kallsyms]  [k] __local_bh_enable_ip
+     1.19%  chat_client  [kernel.kallsyms]  [k] preempt_count_add
+     1.18%  chat_client  [kernel.kallsyms]  [k] __sys_sendto
+     1.14%  chat_client  [kernel.kallsyms]  [k] check_preemption_disabled
+     1.13%  chat_client  [kernel.kallsyms]  [k] __virt_addr_valid
+     1.09%  chat_client  [kernel.kallsyms]  [k] x64_sys_call
+     1.08%  chat_client  [kernel.kallsyms]  [k] try_charge_memcg
+     1.06%  chat_client  [kernel.kallsyms]  [k] __check_object_size
+     1.01%  chat_client  [kernel.kallsyms]  [k] __mod_memcg_state
+     1.00%  chat_client  [kernel.kallsyms]  [k] read_tsc
+     0.99%  chat_client  [kernel.kallsyms]  [k] tcp_write_xmit
+     0.84%  chat_client  [kernel.kallsyms]  [k] debug_smp_processor_id
+     0.83%  chat_client  [kernel.kallsyms]  [k] exit_to_user_mode_prepare
+     0.83%  chat_client  [kernel.kallsyms]  [k] tcp_sendmsg
+     0.76%  chat_client  [kernel.kallsyms]  [k] mod_memcg_state
+     0.73%  chat_client  [kernel.kallsyms]  [k] __sk_mem_raise_allocated
+     0.73%  chat_client  [kernel.kallsyms]  [k] tcp_current_mss
+     0.71%  chat_client  [kernel.kallsyms]  [k] __this_cpu_preempt_check
+     0.70%  chat_client  [kernel.kallsyms]  [k] selinux_socket_sendmsg
+     0.70%  chat_client  [kernel.kallsyms]  [k] do_syscall_64
+     0.69%  chat_client  chat_client        [.] send_all
+     0.68%  chat_client  [kernel.kallsyms]  [k] inet_sendmsg
+     0.68%  chat_client  [kernel.kallsyms]  [k] release_sock
+     0.67%  chat_client  [kernel.kallsyms]  [k] mem_cgroup_charge_skmem
+     0.67%  chat_client  [vdso]             [.] __vdso_clock_gettime
+     0.65%  chat_client  [kernel.kallsyms]  [k] _raw_spin_unlock_bh
+     0.65%  chat_client  [kernel.kallsyms]  [k] security_socket_sendmsg
+     0.56%  chat_client  [kernel.kallsyms]  [k] _raw_spin_lock_bh
+     0.55%  chat_client  [kernel.kallsyms]  [k] cgroup_rstat_updated
+     0.53%  chat_client  [kernel.kallsyms]  [k] sockfd_lookup_light
+     0.53%  chat_client  [kernel.kallsyms]  [k] tcp_release_cb
+     0.51%  chat_client  [kernel.kallsyms]  [k] entry_SYSCALL_64
+     0.51%  chat_client  [kernel.kallsyms]  [k] is_vmalloc_addr
+     0.50%  chat_client  [kernel.kallsyms]  [k] get_page_from_freelist
+     0.50%  chat_client  [kernel.kallsyms]  [k] entry_SYSCALL_64_after_hwframe
+     0.46%  chat_client  [kernel.kallsyms]  [k] ktime_get
+     0.45%  chat_client  libc.so.6          [.] clock_gettime
+     0.43%  chat_client  [kernel.kallsyms]  [k] __fget_light
+     0.42%  chat_client  [kernel.kallsyms]  [k] __tcp_push_pending_frames
+     0.41%  chat_client  [kernel.kallsyms]  [k] __tcp_transmit_skb
+     0.40%  chat_client  [kernel.kallsyms]  [k] _copy_from_iter
+     0.38%  chat_client  [kernel.kallsyms]  [k] tcp_rate_check_app_limited
+     0.38%  chat_client  chat_client        [.] main
+     0.35%  chat_client  [kernel.kallsyms]  [k] preempt_count_sub
+     0.33%  chat_client  [kernel.kallsyms]  [k] __pv_queued_spin_lock_slowpath
+     0.32%  chat_client  [kernel.kallsyms]  [k] lock_sock_nested
+     0.32%  chat_client  [kernel.kallsyms]  [k] tcp_wmem_schedule
+     0.31%  chat_client  [kernel.kallsyms]  [k] syscall_return_via_sysret
+
+
+#
+# (Cannot load tips.txt file, please install perf!)
+#

@@ -1,0 +1,8 @@
+Linux baz-pc 6.6.87.2-microsoft-standard-WSL2 #1 SMP PREEMPT_DYNAMIC Thu Jun  5 18:30:46 UTC 2025 x86_64 x86_64 x86_64 GNU/Linux
+CPU(s):                               12
+Model name:                           AMD Ryzen 5 5600X 6-Core Processor
+               total        used        free      shared  buff/cache   available
+Mem:           15935         547       15095           3         491       15387
+net.ipv4.tcp_rmem = 4096	131072	6291456
+net.ipv4.tcp_wmem = 4096	16384	4194304
+net.core.rmem_max = 212992

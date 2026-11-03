@@ -1,0 +1,22 @@
+# To display the perf.data header info, please use --header/--header-only options.
+#
+#
+# Total Lost Samples: 0
+#
+# Samples: 29K of event 'cycles:P'
+# Event count (approx.): 93904833994
+#
+# Overhead  Command    
+# ........  ...........
+#
+    64.23%  chat_server
+    33.10%  chat_client
+     2.16%  swapper    
+     0.50%  perf       
+     0.01%  sleep      
+     0.00%  perf-exec  
+
+
+#
+# (Cannot load tips.txt file, please install perf!)
+#

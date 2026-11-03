@@ -1,0 +1,26 @@
+# To display the perf.data header info, please use --header/--header-only options.
+#
+#
+# Total Lost Samples: 0
+#
+# Samples: 21K of event 'cycles:P'
+# Event count (approx.): 65185292709
+#
+# Overhead  Command      Shared Object      Symbol                                        
+# ........  ...........  .................  ..............................................
+#
+    55.60%  chat_server  [kernel.kallsyms]  [k] copyout
+    10.30%  chat_client  [kernel.kallsyms]  [k] clear_page_erms
+     3.36%  chat_client  [kernel.kallsyms]  [k] copyin
+     0.68%  chat_client  [kernel.kallsyms]  [k] tcp_sendmsg_locked
+     0.49%  chat_client  [kernel.kallsyms]  [k] get_page_from_freelist
+     0.39%  chat_server  [kernel.kallsyms]  [k] __check_object_size
+     0.37%  chat_client  [kernel.kallsyms]  [k] free_tail_page_prepare
+     0.32%  chat_client  [kernel.kallsyms]  [k] srso_alias_safe_ret
+     0.30%  chat_client  [kernel.kallsyms]  [k] skb_release_data
+     0.30%  chat_client  [kernel.kallsyms]  [k] __mod_memcg_state
+
+
+#
+# (Cannot load tips.txt file, please install perf!)
+#

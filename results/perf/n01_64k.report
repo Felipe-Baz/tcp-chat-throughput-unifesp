@@ -1,0 +1,36 @@
+# To display the perf.data header info, please use --header/--header-only options.
+#
+#
+# Total Lost Samples: 0
+#
+# Samples: 4K of event 'cycles:P'
+# Event count (approx.): 15365079025
+#
+# Overhead  Command      Shared Object      Symbol                                       
+# ........  ...........  .................  .............................................
+#
+    57.59%  chat_server  [kernel.kallsyms]  [k] copyout
+     4.58%  chat_client  [kernel.kallsyms]  [k] copyin
+     3.41%  chat_client  [kernel.kallsyms]  [k] clear_page_erms
+     1.29%  chat_client  [kernel.kallsyms]  [k] tcp_sendmsg_locked
+     0.60%  chat_client  [kernel.kallsyms]  [k] get_page_from_freelist
+     0.44%  chat_server  [kernel.kallsyms]  [k] check_preemption_disabled
+     0.44%  chat_server  [kernel.kallsyms]  [k] __tcp_transmit_skb
+     0.40%  chat_client  [kernel.kallsyms]  [k] skb_release_data
+     0.39%  chat_client  [kernel.kallsyms]  [k] __check_object_size
+     0.37%  chat_client  [kernel.kallsyms]  [k] check_preemption_disabled
+     0.35%  chat_client  [kernel.kallsyms]  [k] __virt_addr_valid
+     0.34%  chat_server  [kernel.kallsyms]  [k] __virt_addr_valid
+     0.34%  chat_client  [kernel.kallsyms]  [k] preempt_count_add
+     0.34%  chat_client  [kernel.kallsyms]  [k] free_unref_page_prepare
+     0.33%  chat_server  [kernel.kallsyms]  [k] tcp_rcv_established
+     0.32%  chat_client  [kernel.kallsyms]  [k] __mod_memcg_state
+     0.31%  chat_server  [kernel.kallsyms]  [k] __this_cpu_preempt_check
+     0.31%  chat_server  [kernel.kallsyms]  [k] loopback_xmit
+     0.31%  chat_server  [kernel.kallsyms]  [k] tcp_ack
+     0.30%  chat_client  [kernel.kallsyms]  [k] try_charge_memcg
+
+
+#
+# (Cannot load tips.txt file, please install perf!)
+#
